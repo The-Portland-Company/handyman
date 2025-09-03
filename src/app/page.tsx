@@ -384,6 +384,20 @@ export default function Home() {
             </Row>
           </section>
         </AnimatedSection>
+
+        <AnimatedSection>
+          <section id="license-disclaimer" className="mb-5 text-center">
+            <Container>
+              <Card className="border-secondary">
+                <Card.Body className="py-4">
+                  <p className="mb-0 text-secondary">
+                    <em>I am currently pursuing my CCB license. Until then there are some limitations on the work I can perform and total amounts I can receive per project.</em>
+                  </p>
+                </Card.Body>
+              </Card>
+            </Container>
+          </section>
+        </AnimatedSection>
       </Container>
 
       <footer className="bg-dark text-white text-center py-3">
