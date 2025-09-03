@@ -1,7 +1,7 @@
 "use client";
 import { Navbar, Nav, Container, Card, Button, Row, Col } from 'react-bootstrap';
 import AnimatedSection from './components/AnimatedSection';
-import { FaPaypal, FaBitcoin, FaRegCreditCard, FaPhone, FaEnvelope, FaMobileAlt, FaDollarSign, FaEthereum, FaQrcode } from 'react-icons/fa';
+import { FaPaypal, FaRegCreditCard, FaPhone, FaEnvelope, FaMobileAlt, FaDollarSign, FaEthereum } from 'react-icons/fa';
 import { QRCodeSVG } from 'qrcode.react';
 import './globals.css';
 
