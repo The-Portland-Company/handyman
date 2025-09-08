@@ -128,7 +128,7 @@ export default function Home() {
                   <Card.Body id="custom-builds-body">
                     <Card.Title id="custom-builds-title">Custom Builds Services Near Me</Card.Title>
                     <Card.Text id="custom-builds-description">
-                      Chicken coops, man caves, sheds, tiny homes, and more. I can build your dream project.
+                      Chicken coops, man caves, sheds, tiny homes, and more.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -150,7 +150,7 @@ export default function Home() {
                   <Card.Body id="animal-care-body">
                     <Card.Title id="animal-care-title">Animal Care Services Near Me</Card.Title>
                     <Card.Text id="animal-care-description">
-                      Shoveling & bagging manure, caring for horses, cattle, goats, chickens & pigs.
+                      Shoveling & bagging manure, caring for horses, cattle, goats, chickens, pigs, etc...
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -361,7 +361,7 @@ export default function Home() {
 
         <AnimatedSection>
           <section id="contact" className="mb-5 bg-light-gray">
-            <h2 className="text-center mb-5 display-5 fw-bold">Contact Us</h2>
+            <h2 className="text-center mb-5 display-5 fw-bold">Contact</h2>
             <Row className="justify-content-center">
               <Col md={4} className="mb-4">
                 <Card className="text-center h-100">
