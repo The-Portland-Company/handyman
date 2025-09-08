@@ -35,7 +35,7 @@ export default function Home() {
       <Container as="main" className="py-5">
         <AnimatedSection>
           <section id="services" className="mb-5">
-            <h2 id="services-title" className="text-center mb-5 display-5 fw-bold">Our Services</h2>
+            <h2 id="services-title" className="text-center mb-5 display-5 fw-bold">Services</h2>
             
             {/* Large Featured Service Cards */}
             <Row className="mb-5">
