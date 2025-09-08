@@ -193,7 +193,7 @@ export default function Home() {
                 <Col id="about-text-col" md={6}>
                   <h2 id="about-title" className="mb-4 display-6 fw-bold">About Me</h2>
                   <p id="about-description">
-                    I am a handyman with a wide range of skills, dedicated to providing quality work at an affordable price. Please note that I am not a licensed contractor and I am not bonded. I carry limited insurance. This is reflected in my low hourly rate of $35-50 per hour.
+                    I am a handyman with a wide range of skills, dedicated to providing quality work at an affordable price. Please note that I am not a licensed contractor and I am not bonded. I carry limited insurance. This is reflected in my low hourly rate of $50-75 per hour.
                   </p>
                 </Col>
               </Row>
