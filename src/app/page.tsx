@@ -70,6 +70,11 @@ export default function Home() {
                         </ul>
                       </Col>
                     </Row>
+                    <div className="mt-3 pt-3 border-top">
+                      <small className="text-muted">
+                        <em>I partner with licensed electricians to audit, approve and complete legally required steps.</em>
+                      </small>
+                    </div>
                   </Card.Body>
                 </Card>
               </Col>
