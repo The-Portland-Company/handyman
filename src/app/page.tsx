@@ -186,8 +186,8 @@ export default function Home() {
             <Container id="about-container">
               <Row id="about-row" className="align-items-center">
                 <Col id="about-image-col" md={6}>
-                  <div className="rounded-circle overflow-hidden" style={{width: '300px', height: '300px', margin: '0 auto'}}>
-                    <img id="about-profile-image" src="/profile-photo.jpg" alt="Hill Handyman Services" style={{width: '100%', height: 'auto', transform: 'scale(2.2) translateY(-15%)', objectFit: 'cover'}} />
+                  <div className="rounded-circle overflow-hidden" style={{width: '300px', height: '300px', margin: '0 auto', position: 'relative'}}>
+                    <img id="about-profile-image" src="/profile-photo.jpg" alt="Hill Handyman Services" style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center'}}/>
                   </div>
                 </Col>
                 <Col id="about-text-col" md={6}>
