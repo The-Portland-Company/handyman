@@ -201,7 +201,7 @@ export default function Home() {
                     I am a husband to a treasure, father of 6 beautiful children. Patriotically homeschooling on our small homestead while growing a couple of businesses along the way as we follow Jesus.
                   </p>
                   <p id="about-skills">
-                    I am a handyman with a wide range of skills, dedicated to providing quality work at an affordable price. Please note that I am not a licensed contractor and I am not bonded. I carry limited insurance. This is reflected in my low hourly rate of $50-75 per hour.
+                    I am a handyman with a wide range of skills, dedicated to providing quality work. I am pursuing my CCB license, and am not a Licensed Contractor, I am not bonded, and I carry limited insurance. This is reflected in my low hourly rate of $50-75 per hour.
                   </p>
                 </Col>
               </Row>
