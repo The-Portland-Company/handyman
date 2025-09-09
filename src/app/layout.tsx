@@ -14,8 +14,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Spencer Hill Handyman Services",
-  description: "Affordable and reliable handyman services.",
+  title: "Hill Handyman Services",
+  description: "Your reliable local handyman who specializes in solar builds and Tiny Homes. Serving Bend, Sunriver, LaPine, Sisters, Redmond, and surrounding areas.",
+  metadataBase: new URL('https://handyman.pages.dev'),
+  openGraph: {
+    title: 'Hill Handyman Services',
+    description: 'Your reliable local handyman who specializes in solar builds and Tiny Homes. Serving Bend, Sunriver, LaPine, and surrounding areas.',
+    url: 'https://handyman.pages.dev',
+    siteName: 'Hill Handyman Services',
+    images: [
+      {
+        url: '/profile-photo.jpg',
+        width: 1200,
+        height: 1200,
+        alt: 'Spencer Hill - Hill Handyman Services',
+      }
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Hill Handyman Services',
+    description: 'Your reliable local handyman who specializes in solar builds and Tiny Homes.',
+    images: ['/profile-photo.jpg'],
+  },
 };
 
 export default function RootLayout({
