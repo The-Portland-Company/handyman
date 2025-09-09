@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack -p 6850",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "wrangler pages deploy out --project-name=handyman"
   },
   "dependencies": {
     "bootstrap": "^5.3.7",
