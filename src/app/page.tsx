@@ -43,7 +43,7 @@ export default function Home() {
                 <Card id="solar-panel-builds-card" className="h-100 border-dark">
                   <Card.Img variant="top" src="/solar-panels.jpg" style={{height: '250px', objectFit: 'cover', objectPosition: 'bottom'}} />
                   <Card.Body id="solar-panel-builds-body">
-                    <Card.Title id="solar-panel-builds-title" className="text-dark fs-3">Solar Panel Builds Services Near Me</Card.Title>
+                    <Card.Title id="solar-panel-builds-title" className="text-dark fs-3">Solar Panel Builds</Card.Title>
                     <Card.Text id="solar-panel-builds-description" className="mb-3">
                       Complete solar installation services for residential and off-grid applications.
                     </Card.Text>
@@ -82,7 +82,7 @@ export default function Home() {
                 <Card className="h-100 border-secondary">
                   <Card.Img variant="top" src="/tiny-house.jpg" style={{height: '250px', objectFit: 'cover'}} />
                   <Card.Body id="tiny-homes-body">
-                    <Card.Title id="tiny-homes-title" className="text-dark fs-3">Tiny Homes Services Near Me</Card.Title>
+                    <Card.Title id="tiny-homes-title" className="text-dark fs-3">Tiny Homes</Card.Title>
                     <Card.Text id="tiny-homes-description" className="mb-3">
                       Custom tiny home construction from foundation to finish.
                     </Card.Text>
@@ -120,7 +120,7 @@ export default function Home() {
                 <Card id="yard-work-card">
                   <Card.Img id="yard-work-image" variant="top" src="/yard-work.jpg" />
                   <Card.Body id="yard-work-body">
-                    <Card.Title id="yard-work-title">Yard Work & Maintenance Services Near Me</Card.Title>
+                    <Card.Title id="yard-work-title">Yard Work & Maintenance</Card.Title>
                     <Card.Text id="yard-work-description">
                       From mowing lawns to clearing brush, I&apos;ll keep your yard looking its best.
                     </Card.Text>
@@ -131,7 +131,7 @@ export default function Home() {
                 <Card id="custom-builds-card">
                   <Card.Img id="custom-builds-image" variant="top" src="/custom-builds.jpg" />
                   <Card.Body id="custom-builds-body">
-                    <Card.Title id="custom-builds-title">Custom Builds Services Near Me</Card.Title>
+                    <Card.Title id="custom-builds-title">Custom Builds</Card.Title>
                     <Card.Text id="custom-builds-description">
                       Chicken coops, man caves, sheds, tiny homes, and more.
                     </Card.Text>
@@ -142,7 +142,7 @@ export default function Home() {
                 <Card id="general-labor-card">
                   <Card.Img id="general-labor-image" variant="top" src="/general-labor.jpg" />
                   <Card.Body id="general-labor-body">
-                    <Card.Title id="general-labor-title">General Labor Services Near Me</Card.Title>
+                    <Card.Title id="general-labor-title">General Labor</Card.Title>
                     <Card.Text id="general-labor-description">
                       Building, framing, digging, hauling, trash-runs, supply runs, and more.
                     </Card.Text>
@@ -153,7 +153,7 @@ export default function Home() {
                 <Card id="animal-care-card">
                   <Card.Img id="animal-care-image" variant="top" src="/animal-care.jpg" />
                   <Card.Body id="animal-care-body">
-                    <Card.Title id="animal-care-title">Animal Care Services Near Me</Card.Title>
+                    <Card.Title id="animal-care-title">Animal Care</Card.Title>
                     <Card.Text id="animal-care-description">
                       Shoveling & bagging manure, caring for horses, cattle, goats, chickens, pigs, etc...
                     </Card.Text>
@@ -164,7 +164,7 @@ export default function Home() {
                 <Card id="plumbing-card">
                   <Card.Img id="plumbing-image" variant="top" src="/plumbing.jpg" />
                   <Card.Body id="plumbing-body">
-                    <Card.Title id="plumbing-title">Plumbing Services Near Me</Card.Title>
+                    <Card.Title id="plumbing-title">Plumbing</Card.Title>
                     <Card.Text id="plumbing-description">
                       General plumbing services, including RV and tiny house plumbing.
                     </Card.Text>
@@ -175,7 +175,7 @@ export default function Home() {
                 <Card id="electrical-card">
                   <Card.Img id="electrical-image" variant="top" src="/electrical.jpg" />
                   <Card.Body id="electrical-body">
-                    <Card.Title id="electrical-title">Electrical Services Near Me</Card.Title>
+                    <Card.Title id="electrical-title">Electrical</Card.Title>
                     <Card.Text id="electrical-description">
                       Limited electrical services until I have completed my CCB license. Including building solar panel systems, work on Tiny Homes, and more.
                     </Card.Text>
