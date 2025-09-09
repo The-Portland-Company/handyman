@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Hill Handyman Services",
-  description: "Your reliable local handyman who specializes in solar builds and Tiny Homes. Serving Bend, Sunriver, LaPine, Sisters, Redmond, and surrounding areas.",
+  description: "Your reliable local handyman who specializes in solar panel systems, Tiny Homes and homestead dirty jobs. Serving Bend, Sunriver, LaPine, Sisters, Redmond, and surrounding areas.",
   metadataBase: new URL('https://handyman.pages.dev'),
   openGraph: {
     title: 'Hill Handyman Services',
-    description: 'Your reliable local handyman who specializes in solar builds and Tiny Homes. Serving Bend, Sunriver, LaPine, and surrounding areas.',
+    description: 'Your reliable local handyman who specializes in solar panel systems, Tiny Homes and homestead dirty jobs. Serving Bend, Sunriver, LaPine, and surrounding areas.',
     url: 'https://handyman.pages.dev',
     siteName: 'Hill Handyman Services',
     images: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Hill Handyman Services',
-    description: 'Your reliable local handyman who specializes in solar builds and Tiny Homes.',
+    description: 'Your reliable local handyman who specializes in solar panel systems, Tiny Homes and homestead dirty jobs.',
     images: ['/profile-photo.jpg'],
   },
 };

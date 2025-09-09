@@ -27,7 +27,7 @@ export default function Home() {
       <section id="home" className="text-center" style={{backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/sunriver-lodge-aerial.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed', color: 'white', minHeight: '50vh', display: 'flex', alignItems: 'center'}}>
         <Container id="hero-container" className="py-5">
           <h1 id="hero-title" className="display-4 fw-bold mb-3">Hill Handyman Services</h1>
-          <p id="hero-subtitle" className="lead fs-4 mb-4" style={{color: 'white'}}>Your reliable local handyman who specializes in solar builds and Tiny Homes.</p>
+          <p id="hero-subtitle" className="lead fs-4 mb-4" style={{color: 'white'}}>Your reliable local handyman who specializes in solar panel systems, Tiny Homes and homestead dirty jobs.</p>
           <Button id="hero-cta-button" href="#contact" variant="dark" size="lg" className="px-4 py-2">Schedule & Contact</Button>
         </Container>
       </section>
