@@ -10,7 +10,15 @@ export default function Home() {
     <>
       <Navbar id="main-navbar" bg="dark" variant="dark" expand="lg" sticky="top">
         <Container>
-          <Navbar.Brand id="navbar-brand" href="#home">Hill Handyman Services</Navbar.Brand>
+          <Navbar.Brand id="navbar-brand" href="#home" className="d-flex align-items-center">
+            <img 
+              src="/hill-handyman-services-of-central-oregonlogo.png" 
+              alt="Hill Handyman Services Logo" 
+              height="40" 
+              className="me-2"
+            />
+            <span>Hill Handyman Services</span>
+          </Navbar.Brand>
           <Navbar.Toggle id="navbar-toggle" aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="navbar-collapse">
             <Nav id="main-nav" className="me-auto">
@@ -26,6 +34,13 @@ export default function Home() {
 
       <section id="home" className="text-center" style={{backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/sunriver-lodge-aerial.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed', color: 'white', minHeight: '50vh', display: 'flex', alignItems: 'center'}}>
         <Container id="hero-container" className="py-5">
+          <img 
+            src="/hill-handyman-services-of-central-oregonlogo.png" 
+            alt="Hill Handyman Services Logo" 
+            height="120" 
+            className="mb-4"
+            style={{filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.5))'}}
+          />
           <h1 id="hero-title" className="display-4 fw-bold mb-3">Hill Handyman Services</h1>
           <p id="hero-subtitle" className="lead fs-4 mb-4" style={{color: 'white'}}>Your reliable local handyman who specializes in solar panel systems, Tiny Homes and homestead dirty jobs.</p>
           <Button id="hero-cta-button" href="#contact" variant="dark" size="lg" className="px-4 py-2">Schedule & Contact</Button>
@@ -196,7 +211,7 @@ export default function Home() {
                   </div>
                 </Col>
                 <Col id="about-text-col" md={6}>
-                  <h2 id="about-title" className="mb-4 display-6 fw-bold">About Me</h2>
+                  <h2 id="about-title" className="mb-4 display-6 fw-bold">About</h2>
                   <p id="about-description">
                     I am a husband to a treasure, father of 6 beautiful children. Patriotically homeschooling on our small homestead while growing a couple of businesses along the way as we follow Jesus.
                   </p>
@@ -408,9 +423,16 @@ export default function Home() {
         </AnimatedSection>
       </Container>
 
-      <footer className="bg-dark text-white text-center py-3">
+      <footer className="bg-dark text-white text-center py-4">
         <Container>
-          <p>&copy; 2025 Hill Handyman Services</p>
+          <img 
+            src="/hill-handyman-services-of-central-oregonlogo.png" 
+            alt="Hill Handyman Services Logo" 
+            height="60" 
+            className="mb-2"
+            style={{filter: 'brightness(0) invert(1)', opacity: 0.8}}
+          />
+          <p className="mb-0">&copy; 2025 Hill Handyman Services</p>
         </Container>
       </footer>
     </>
